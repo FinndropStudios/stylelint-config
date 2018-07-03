@@ -1,0 +1,46 @@
+{
+  "name": "@finndropstudios/stylelint-config",
+  "version": "0.3.0",
+  "description": "Finndrop Studios' StyleLint configuration",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "test": "npm run --silent lint",
+    "prepublish": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FinndropStudios/stylelint-config.git"
+  },
+  "keywords": [
+    "stylelint",
+    "stylelintconfig",
+    "config",
+    "css"
+  ],
+  "author": "Manuel Bachl (https://www.finndrop.de)",
+  "contributors": [
+    "Manuel Bachl (https://www.finndrop.de)"
+  ],
+  "license": "ISC",
+  "devDependencies": {
+    "@finndropstudios/eslint-config": "^0.2.1",
+    "eslint": "^4.19.1",
+    "eslint-plugin-import": "^2.11.0",
+    "stylelint": "^9.2.0",
+    "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+    "stylelint-scss": "^3.0.0"
+  },
+  "peerDependencies": {
+    "stylelint": "^9.2.0",
+    "stylelint-declaration-block-no-ignored-properties": "^1.1.0",
+    "stylelint-scss": "^3.0.0"
+  },
+  "engines": {
+    "node": ">= 4"
+  },
+  "bugs": {
+    "url": "https://github.com/FinndropStudios/stylelint-config/issues"
+  },
+  "homepage": "https://github.com/FinndropStudios/stylelint-config#readme"
+}
